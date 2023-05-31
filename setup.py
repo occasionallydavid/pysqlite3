@@ -153,8 +153,8 @@ def get_setup_args():
             "Topic :: Database :: Database Engines/Servers",
             "Topic :: Software Development :: Libraries :: Python Modules"],
         cmdclass={
-            "build_static": AmalgationLibSqliteBuilder,
-            "build_ext": SystemLibSqliteBuilder
+            "build_ext": AmalgationLibSqliteBuilder,
+            #"build_ext": SystemLibSqliteBuilder
         }
     )
 
